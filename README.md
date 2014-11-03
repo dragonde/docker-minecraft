@@ -13,6 +13,9 @@ buildall
 => construye las imagenes de minecraft (servidor) y mapgenerator (overviewer.py)
    Ambas basadas en phusion/baseimage
 
+stopcontainers
+
+=> detiene todos los contenedores
 
 rmcontainers
 
@@ -28,5 +31,9 @@ start
 generamap
 
 => genera el mapa de nuevo
+
+stopcontainers
+
+=> detiene los contenedores
 
 
