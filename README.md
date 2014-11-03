@@ -1,11 +1,11 @@
 docker-minecraft
 ================
 
-Servidor Minecraft con Servidor Web que muestra el mapa con Overviewer.py.
+Servidor _Minecraft_ con Servidor Web que muestra el mapa con Overviewer.py.
 
 setup
 -----
-Crea el fichero start a partir de start.0 rellenando con el directorio presente (pwd).
+Crea el fichero *start* a partir de *start.0* rellenando con el directorio presente (pwd).
 
 buildall 
 --------
@@ -32,5 +32,7 @@ stopcontainers
 
 Detiene todos los contenedores docker.
 
-Noviembre/2014
+*****
+
+**Noviembre/2014**
 
