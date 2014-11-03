@@ -1,39 +1,36 @@
 docker-minecraft
 ================
 
-Servidor Minecraft con Servidor Web que muestra el mapa con Overviewer.py
+Servidor Minecraft con Servidor Web que muestra el mapa con Overviewer.py.
 
 setup
-
-=> creamos el fichero start a partir de start.0 rellenando con el directorio presente
-
+-----
+Crea el fichero start a partir de start.0 rellenando con el directorio presente (pwd).
 
 buildall 
-
-=> construye las imagenes de minecraft (servidor) y mapgenerator (overviewer.py)
-   Ambas basadas en phusion/baseimage
+--------
+Construye las imagenes de minecraft (servidor) y mapgenerator (overviewer.py), ambas basadas en phusion/baseimage.
 
 stopcontainers
-
-=> detiene todos los contenedores
+--------------
+Detiene todos los contenedores.
 
 rmcontainers
-
-=> elimina todos los contenedores docker
-
+------------
+Elimina todos los contenedores docker.
 
 start
-
-=> inicia servidor minecraft, y servidor nginx (basado en dockerfile-nginx)
-   y genera el mapa de minecraft
-
+-----
+Inicia servidor minecraft, y servidor nginx (basado en dockerfile-nginx) y genera el mapa de minecraft.
 
 generamap
-
-=> genera el mapa de nuevo
+---------
+Genera el mapa de nuevo.
 
 stopcontainers
+--------------
 
-=> detiene los contenedores
+Detiene todos los contenedores docker.
 
+Noviembre/2014
 
