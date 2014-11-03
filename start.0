@@ -1,0 +1,12 @@
+#!/bin/bash
+
+docker run -d --name minecraft -p 25565:25565 minecraft
+docker run -d -p 80:8000 --name mapserver -v REPLACE_PWD/mapserver/sites-enabled:/etc/nginx/sites-enabled -v REPLACE_PWD/mapserver/logs:/var/log/nginx -v /www dockerfile/nginx
+
+# tiempo para que arranque el servidor de minecraft 
+
+sleep 100
+
+# entonces generamos el mapa
+
+./generamap

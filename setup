@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Sustituir REPLACE_PWD por el directorio actual en start
+
+if [ -f start.0 ];
+then 
+  sed "s?REPLACE_PWD?`pwd`?g" start.0 > start
+  chmod +x start
+else 
+  echo "ERROR: no se encuentra fichero semilla start.0\n"
+fi
+
