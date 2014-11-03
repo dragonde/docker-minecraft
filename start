@@ -4,6 +4,5 @@ docker run -d --name minecraft -p 25565:25565 minecraft
 docker run -d -p 80:8000 --name mapserver -v /home/core/docker-minecraft/mapserver/sites-enabled:/etc/nginx/sites-enabled -v /home/core/docker-minecraft/mapserver/logs:/var/log/nginx -v /www dockerfile/nginx
 
 #tiempo para que se genere el mapa 
-sleep 105
-
-docker run --rm --volumes-from minecraft --volumes-from mapserver mapgenerator
+sleep 100
+./generamap

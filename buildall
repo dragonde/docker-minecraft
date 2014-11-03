@@ -2,3 +2,4 @@
 
 docker build -t minecraft minecraft
 docker build -t mapgenerator mapgenerator
+docker pull dockerfile/nginx
